@@ -1,21 +1,10 @@
 <?php
-$name = 'Hisham';
-$position = ' front end developer';
-$github_url = 'https://github.com/gk-git';
+$course_name = 'Responsive design';
+$enrolled_students = 17;
+$price = 17.4;
+$on_discount = false;
 
-//first method 
-echo "Hello Im " . $name .", Im a" . $position . "check my github " .$github_url;
-echo'<br/>';
-//second method
-echo "Hello Im  {$name}, Im a {$position}  check my github  {$github_url}";
-echo'<br/>';
-//third method 
-echo 'Hello Im ' . $name .', Im a' . $position . 'check my github ' .$github_url;
-echo'<br/>';
-//3
-
-echo "  My name is   {$name}, junior {$position} this is my {$github_url} account ";
-
+echo "Course title: {$course_name}\nEnrolled Students: {$enrolled_students}\nCourse price:  {$price}\nCourse on discount: {$on_discount}" ;
 
 
 ?>
