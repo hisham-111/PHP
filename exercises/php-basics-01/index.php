@@ -1,27 +1,13 @@
 <?php
 
-$marks = array(
-      
- 
-    "Eggs" => array(
-        "balade" ,
-        "mazere3" ,
-    ),
-          
-    "milk" => array(
-        "Fresh",
-        "Taanayel",
+$name = 'Hisham';
+var_dump($name);
+$description = 'Front end';
+var_dump($description);
 
-    ),
-    "water-pack" => array(
-        "Tanoureen",
-        "Reem",
+// die();
 
-    ),
-);
-echo "Hey Sir, Please I need 1 pack of ";
+var_dump($name . $description);
 
-echo $marks['Eggs'][0]; 
-echo "eggs and 3 {$marks['water-pack'][1]} water-pack"
 
 ?>
