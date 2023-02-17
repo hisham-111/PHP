@@ -1,18 +1,15 @@
 <?php
 
- function calculateArea($height , $width){
-    if($height == 5 && $width == 5){
-        $area =  $height * $width;
-        echo "Area is {$area} " ;
-    }
+$birth_year = 2005;
+$current_year = 2023;
 
-    else {
-        echo 'you should try to use number 5 ';
-    }
+$calculation  = $current_year - $birth_year;
+
+if($calculation > 18){
+    echo "You can drive" ;
 }
 
-
-
-// calculateArea(5 , 5); //Area is 25 
- calculateArea(5 , 3); //you should try to use number 5 
+else {
+    echo "You still a kid, go and play GTA";
+}
 ?>
