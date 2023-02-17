@@ -1,10 +1,18 @@
 <?php
-$course_name = 'Responsive design';
-$enrolled_students = 17;
-$price = 17.4;
-$on_discount = false;
 
-echo "Course title: {$course_name}\nEnrolled Students: {$enrolled_students}\nCourse price:  {$price}\nCourse on discount: {$on_discount}" ;
+ function calculateArea($height , $width){
+    if($height == 5 && $width == 5){
+        $area =  $height * $width;
+        echo "Area is {$area} " ;
+    }
+
+    else {
+        echo 'you should try to use number 5 ';
+    }
+}
 
 
+
+// calculateArea(5 , 5); //Area is 25 
+ calculateArea(5 , 3); //you should try to use number 5 
 ?>
