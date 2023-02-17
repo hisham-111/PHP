@@ -1,15 +1,27 @@
 <?php
 
-$grocery = array("Eggs", "Milk", "Cheese" , "Water Pack", "Tissues" , "Watermelon");
+$marks = array(
+      
+ 
+    "Eggs" => array(
+        "balade" ,
+        "mazere3" ,
+    ),
+          
+    "milk" => array(
+        "Fresh",
+        "Taanayel",
 
-echo 'Hello Sir, do you have';
-$i = 0;
-foreach( $grocery as $value) {
-    if( $i >= 3) break;
-    echo " , {$value} ";
-    $i++;
-}
-echo "? Also if you sell fruits can I find a ";
-echo end($grocery)."\n";
+    ),
+    "water-pack" => array(
+        "Tanoureen",
+        "Reem",
+
+    ),
+);
+echo "Hey Sir, Please I need 1 pack of ";
+
+echo $marks['Eggs'][0]; 
+echo "eggs and 3 {$marks['water-pack'][1]} water-pack"
 
 ?>
